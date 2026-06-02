@@ -1,0 +1,14 @@
+{
+  "name": "pariocity",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static website for ParioCity and POD Margin Lens landing pages.",
+  "scripts": {
+    "dev": "python3 -m http.server 4321 --directory public",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-site.mjs",
+    "lint": "npm run check",
+    "test": "npm run check"
+  }
+}

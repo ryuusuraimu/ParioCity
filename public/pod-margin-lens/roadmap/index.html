@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roadmap | POD Margin Lens</title>
+    <meta name="description" content="Roadmap for POD Margin Lens." />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="/">ParioCity</a>
+        <div class="nav-links">
+          <a href="/pod-margin-lens/">POD Margin Lens</a>
+          <a href="/pod-margin-lens/privacy/">Privacy</a>
+          <a href="/pod-margin-lens/support/">Support</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero">
+        <p class="eyebrow">Roadmap</p>
+        <h1>POD Margin Lens Roadmap</h1>
+        <p class="lead">The first release stays small and review-safe. Later versions should be based on user validation.</p>
+      </section>
+
+      <section class="section">
+        <div class="grid two">
+          <article class="card">
+            <span class="badge">v0.1</span>
+            <h3>Review-safe first release</h3>
+            <p><strong>Goal:</strong> publish a minimal, review-safe Chrome Extension.</p>
+            <ul class="list">
+              <li>Add products manually</li>
+              <li>Delete products</li>
+              <li>Local save</li>
+              <li>Break-even CPA</li>
+              <li>Post-ad profit</li>
+              <li>Ad safety ratio</li>
+              <li>Rank display</li>
+              <li>Ad-safety sorting</li>
+              <li>Permissions: <code>["storage"]</code></li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="badge">v0.2</span>
+            <h3>Product decision log</h3>
+            <p><strong>Goal:</strong> turn POD Margin Lens from a one-time calculator into a reusable product decision log.</p>
+            <ul class="list">
+              <li>Export CSV for spreadsheet analysis</li>
+              <li>Export Markdown for Obsidian notes</li>
+              <li>Copy Markdown Summary for manual pasting</li>
+              <li>Prefer browser-native Blob downloads and Clipboard API before adding Chrome permissions</li>
+              <li>No new external data flow</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="badge">v0.3</span>
+            <h3>Monetization preparation</h3>
+            <p><strong>Goal:</strong> test willingness to pay before implementing paid access.</p>
+            <ul class="list">
+              <li>Free: up to 3 products</li>
+              <li>Pro messaging: unlimited products</li>
+              <li>Landing page</li>
+              <li>Waitlist</li>
+              <li>Lifetime deal interest test</li>
+              <li>Evaluate payment providers without adding payment logic directly into the extension yet</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="badge">v0.4</span>
+            <h3>Extension-native value</h3>
+            <p><strong>Goal:</strong> differentiate from a web calculator.</p>
+            <ul class="list">
+              <li>Read selling price from Shopify product edit page</li>
+              <li>Read product cost from Printify page</li>
+              <li>Add small ad-safety badge on supported pages</li>
+              <li>This version may require <code>host_permissions</code> and <code>content_scripts</code></li>
+              <li>Do not proceed before v0.1 is published, v0.2 export value is validated, and users clearly request page-level automation</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="badge">v1.0</span>
+            <h3>POD pricing decision tool</h3>
+            <p><strong>Goal:</strong> become a decision product, not just a calculator.</p>
+            <ul class="list">
+              <li>Multi-product comparison board</li>
+              <li>Ad CPA scenario matrix</li>
+              <li>Free shipping threshold check</li>
+              <li>Sale safety check</li>
+              <li>Supplier templates for Printify / Printful / Gelato</li>
+              <li>CSV import/export</li>
+              <li>Paid plan</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">No analytics. No tracking. No cookies.</div>
+    </footer>
+  </body>
+</html>

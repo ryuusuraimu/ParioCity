@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POD Margin Lens | ParioCity</title>
+    <meta name="description" content="Rank POD products by ad-cost safety before launching ads with a lightweight local-only Chrome Extension." />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="/">ParioCity</a>
+        <div class="nav-links">
+          <a href="/products/">Products</a>
+          <a href="/pod-margin-lens/privacy/">Privacy</a>
+          <a href="/pod-margin-lens/support/">Support</a>
+          <a href="/pod-margin-lens/roadmap/">Roadmap</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">POD seller tool</p>
+            <h1>POD Margin Lens</h1>
+            <p class="lead">Rank POD products by ad-cost safety before launching ads.</p>
+            <p class="muted">A lightweight local-only Chrome Extension for POD sellers who want to compare break-even CPA, post-ad profit, and ad safety before spending money on ads.</p>
+            <div class="actions">
+              <a class="button" href="#" aria-disabled="true">Chrome Web Store link coming soon</a>
+              <a class="button secondary" href="/pod-margin-lens/privacy/">Read privacy policy</a>
+            </div>
+          </div>
+          <aside class="panel">
+            <span class="badge">Local-only v0.1</span>
+            <h2>What it does</h2>
+            <ul class="list">
+              <li>Add POD products manually.</li>
+              <li>Estimate break-even CPA and post-ad profit.</li>
+              <li>Rank products as Strong, Testable, Risky, or Loss.</li>
+              <li>Store product calculation data locally in Chrome.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Why ad-cost safety matters</h2>
+        <p class="lead">POD sellers often compare many products before running ads. POD Margin Lens helps estimate which products have more room for target CPA before launching tests.</p>
+      </section>
+
+      <section class="section">
+        <h2>Key calculations</h2>
+        <div class="grid">
+          <article class="card"><h3>Break-even CPA</h3><p>The estimated maximum ad cost per purchase before the product becomes unprofitable.</p></article>
+          <article class="card"><h3>Post-ad profit</h3><p>The estimated product profit after subtracting the target CPA.</p></article>
+          <article class="card"><h3>Ad safety ratio</h3><p>Break-even CPA divided by target CPA, used to support ranking decisions.</p></article>
+          <article class="card"><h3>Rank</h3><p>Strong, Testable, Risky, or Loss based on the ad safety ratio.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Formula reference</h2>
+        <pre class="formula"><code>Revenue = Selling Price × (1 - Discount Rate)
+Payment Fee = Revenue × Fee Rate + Fixed Fee
+Pre-Ad Profit = Revenue - Product Cost - Shipping Cost - Payment Fee
+Break-even CPA = Pre-Ad Profit
+Post-Ad Profit = Pre-Ad Profit - Target CPA
+Ad Safety Ratio = Break-even CPA / Target CPA</code></pre>
+      </section>
+
+      <section class="section">
+        <h2>Local-only privacy</h2>
+        <div class="grid">
+          <article class="card"><h3>No login</h3><p>No account is required to use v0.1.</p></article>
+          <article class="card"><h3>No Shopify connection</h3><p>The extension does not connect to Shopify or read store pages.</p></article>
+          <article class="card"><h3>No Printify connection</h3><p>The extension does not connect to Printify or supplier APIs.</p></article>
+          <article class="card"><h3>No Meta Ads connection</h3><p>The extension does not connect to Meta Ads or ad accounts.</p></article>
+          <article class="card"><h3>No analytics</h3><p>The extension does not use analytics or external tracking.</p></article>
+          <article class="card"><h3>No external API</h3><p>All calculations are performed locally on the user's device.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Roadmap preview</h2>
+        <p class="lead">v0.2 is planned to turn POD Margin Lens into a reusable product decision log with CSV export, Markdown export, and Copy Markdown Summary.</p>
+        <a href="/pod-margin-lens/roadmap/">View full roadmap</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">No analytics. No tracking. No cookies.</div>
+    </footer>
+  </body>
+</html>

@@ -10,6 +10,10 @@ const requiredRoutes = [
   '/pod-margin-lens/privacy',
   '/pod-margin-lens/support',
   '/pod-margin-lens/roadmap',
+  '/pod-margin-lens/screenshots',
+  '/pod-margin-lens/screenshots/empty-state',
+  '/pod-margin-lens/screenshots/ranking',
+  '/pod-margin-lens/screenshots/metrics',
 ];
 const forbiddenPatterns = [
   /google-analytics/i,

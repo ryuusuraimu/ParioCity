@@ -22,6 +22,12 @@ Support URL:
 https://pariocity.pages.dev/pod-margin-lens/support
 ```
 
+Temporary support email:
+
+```txt
+ryu.nakamura.dev@gmail.com
+```
+
 ## Optional URLs
 
 Roadmap URL:
